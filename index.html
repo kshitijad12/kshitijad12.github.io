@@ -28,7 +28,7 @@
             <a href="#skills" class="nav-link skills">SKILLS</a>
             <a href="#projects" class="nav-link projects">PROJECTS</a>
             <a href="#contact" class="nav-link contact">CONTACT</a>
-            <a class="" href="" class="nav-link resume">RESUME</a>
+            <a class="" href="" class="nav-link resume" id="resume-button-1">RESUME</a>
             <div class="bx bx-moon" id="darkmode"></div>
         </div>
     </header>
@@ -41,16 +41,18 @@
             <a href="https://github.com/kshitijad12" target="_blank"><i class='bx bxl-github' id="contact-github" style="font-size: 30px; color: white;"></i></a>
             <a href="https://www.linkedin.com/feed/" target="_blank"><i class='bx bxl-linkedin'id="contact-linkedin" style="font-size: 30px; color: white;"></i></a>
         </div>
+
         <div class="home-img">
             <img src=""  alt="">
         </div>
+
         <div class="home-text">
             <span>Hello,my name is</span>
-            <h1>Kshitija Dokarmare</h1>
-            <h2>I'm a<b>Full Stack Java Backend Developer</b></h2>
-            <a href="#resume" class="btn">Resume</a>
+            <h1 id="user-detail-name">Kshitija Dokarmare</h1> 
+            <h2 id="user-detail-intro">I'm a<b>Full Stack Java Backend Developer</b></h2>
+            <a href="#resume" class="btn" id="resume-button-2">Resume</a>
         </div>
-
+    
     </section>
      <!-- home section ends here  -->
 
@@ -87,7 +89,7 @@
                     <span>kshitijadokarmare786@gmail.com</span>
                 </div>
             </div>
-            <a href="" value="download" target="_blank" class="btn">Download Cv</a>
+            <a id="resume-link-2" href="" value="download" target="_blank" class="btn" id="resume-button-2">Download Resume</a>
         </div>
     </div>
 </section>
@@ -101,23 +103,27 @@
     </div>
 
     <div id="front">
-        <div>
-            <i class="fa-solid fa-laptop-code"></i>
+
+        <div class="skills-card">
+            <i class="fa-solid fa-laptop-code" class="skills-card-img" ></i>
             <h4 class="fronth4">FrontEnd Developer</h4>
             <p class="frontpara">When you visit a website, the design elements you see were created by a front-end devloper.</p>
         </div>
-        <div>
-            <i class="fa-solid fa-network-wired"></i>
+
+        <div class="skills-card">
+            <i class="fa-solid fa-network-wired" class="skills-card-img"></i>
             <h4 class="fronth4">BackEnd devloper</h4>
             <p class="frontpara">Who Build and maintain the mechanisms that process data and perform actions on websites.</p>
         </div>
-        <div>
-            <i class="fa-solid fa-brain"></i>
+
+        <div class="skills-card">
+            <i class="fa-solid fa-brain" class="skills-card-img"></i>
             <h4 class="fronth4">DSA</h4>
             <p class="frontpara">Data Structure and Algorithm(DSA) is applied in all diciplines of software development.</p>
         </div>
-        <div>
-            <i class="fa-solid fa-comments"></i>
+
+        <div class="skills-card">
+            <i class="fa-solid fa-comments" class="skills-card-img"></i>
             <h4 class="fronth4">Communication Skills</h4>
             <p class="frontpara">Ability to use when giving and reciving different kinds of information.</p>
         </div>
@@ -153,15 +159,15 @@
     
     <h1 style="text-align: center; margin-bottom: 15px; color: rgb(225, 87, 87); font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-top: 120px;">My Github Contribution</h1><br>
     <h3 style="color:white; font-size: 18px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Profile Views On Github  : <img src="https://komarev.com/ghpvc/?username=kshitijad12&label=Profile%20views&color=0e75b6&style=flat" alt="kshitijad12" /> </h3> <br>
-    <div class="calendar">
+    <div class="react-activity-calendar">
         <!-- Loading stuff -->
         Loading the data just for you.
     </div>
 
     <p style="text-align: center;">
-        <img  src="https://github-readme-stats.vercel.app/api?username=kshitijad12&show_icons=true&theme=default" /><br>
-        <img  src="https://github-readme-streak-stats.herokuapp.com/?user=kshitijad12&theme=default" /><br>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kshitijad12&theme=default" /><br>
+        <img  src="https://github-readme-stats.vercel.app/api?username=kshitijad12&show_icons=true&theme=default" id="github-stats-card"/><br>
+        <img  src="https://github-readme-streak-stats.herokuapp.com/?user=kshitijad12&theme=default" id="github-streak-stats"/><br>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kshitijad12&theme=default" id="github-top-langs"/><br>
       </p>
 
 
@@ -231,7 +237,7 @@
     <div id="container4">
         <h1 class="heading1">Projects</h1>
         <div id="box">
-            <div>
+            <div class="project-card">
                 <img src="./documents/youtube.jpg">
                 <h3 class="data">Mini-Youtube-App</h3><br>
                 <h5 class="data">My youtube showcase Add free experience to the user</h5><br>
@@ -258,8 +264,8 @@
             <div>
                 <h1></h1><br><br><br>
                 <h2 class="contactdata">Kshitija Vilas Dokarmare</h2><br>
-                <h2 class="contactdata">+91 8669567479</h2><br>
-                <h3 class="contactdata">kshitijadokarmare786@gmail.com</h3><br>
+                <h2 id="contact-phone">+91 8669567479</h2><br>
+                <h3 id="contact-email">kshitijadokarmare786@gmail.com</h3><br>
                 <a id="social" href="https://github.com/kshitijad12" target="_blank"><i class='bx bxl-github ax'></i></a>
                 <a id="social2" href="" target="_blank"><i class='bx bxl-linkedin ax' ></i></a>
                
