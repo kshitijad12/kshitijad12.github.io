@@ -24,11 +24,11 @@
         <div class="bx bx-menu" id="menu-icon"></div>
  
         <ul class="navbar">
-            <li ><a href="#home" class="nav-linkhome">Home</a></li>
+            <li ><a href="#home" class="nav-link.home">Home</a></li>
             <li><a href="#about" class="nav-link about">About</a></li>
-            <li><a href="#tech" class="nav-link skills">Skills</a></li>
-            <li><a href="#skills" >TechStack</a></li>
-            <li><a href="#portfolio" class="nav-link projects">Projects</a></li>
+            <li><a href="#skills" class="nav-link skills">Skills</a></li>
+            <li><a href="#tech" >TechStack</a></li>
+            <li><a href="#projects" class="nav-link projects">Projects</a></li>
             <li><a href="#contact" class="nav-link contact">Contact</a></li>
             <li><a class="RFAL" href="#" class="nav-link resume" id="resume-button-1" id="resume-link-1">Resume</a></li>
             <div class="bx bx-moon" id="darkmode"></div>
@@ -50,7 +50,7 @@
         <div class="home-text">
             <span>Hello, I'm</span>
             <h1 id="user-detail-name">Kshitija Dokarmare</h1>
-            <h2><b>Full Stack Java Backend Developer</b></h2>
+            <h2 id="user-detail-intro"><b>Full Stack Java Backend Developer</b></h2>
             <p id="user-detail-intro">I love building websites. <br> Passionate about developing creative & user friendly websites</p>
             <a href="#contact" class="btn">Contact Me</a>
         </div>
@@ -100,7 +100,7 @@
 
 
     <!-- skills section start from here -->
-    <section class="tech" id="tech" id="skills">
+    <section class="tech"  id="skills">
         <div class="heading">
             <h2 style="color: rgb(225, 87, 87); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Skills</h2>
         </div>
@@ -158,7 +158,7 @@
         
         <h1 style="text-align: center; margin-bottom: 15px; margin-top: 180px; color: rgb(225, 87, 87);">My Github Contribution</h1><br>
         <h3>Profile Views On Github  : <img src="https://komarev.com/ghpvc/?username=kshitijad12&label=Profile%20views&color=0e75b6&style=flat" alt="kshitijad12" /> </h3> <br>
-        <div class="calendar" class="react-activity-calendar">
+        <div  class="react-activity-calendar" style="margin-left: 80px;">
             <!-- Loading stuff -->
             Loading the data just for you.
         </div>
@@ -233,11 +233,11 @@
     <!-- techstack section ends from here  -->
 
     <!-- project section start from here  -->
-    <section class="portfolio" id="portfolio" id="projects">
+    <section class="portfolio"  id="projects">
     <a name="projects"></a>
     <div id="container4">
         <h1 class="heading1" style="color: rgb(225, 87, 87); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Projects</h1>
-        <div id="box" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        <div class="skills-card" id="box" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
             <div class="project-card">
                 <img src="./documents/Screenshot_20230226_205849.png">
                 <h3 class="project-title">Tendor_Management_System</h3><br>
@@ -263,7 +263,7 @@
                 <h5 class="project-description">My youtube showcase Add free experience to the user</h5><br>
                 <h5>An individual project, built in 1 day by me with ES6 concept and youtube API</h5><br>
                 <p class="project-tech-stack">HTML | CSS | JavaScript</p>
-                <a href="https://github.com/masai-course/kshitija_vilas_dokarmare_fw21_0733/tree/master/unit-3/sprint-3/day-2/assignments" target="_blank" class="project-github-link"><button  class="button">CODE <i class="fa-brands fa-github"></i></button></a>
+                <a href="https://github.com/masai-course/kshitija_vilas_dokarmare_fw21_0733/tree/master/unit-3/sprint-3/day-2/assignments/youtube_clone" target="_blank" class="project-github-link"><button  class="button">CODE <i class="fa-brands fa-github"></i></button></a>
                 <a href="https://kshitija-youtube-clone.netlify.app/" target="_blank" class="project-deployed-link"><button class="button">LIVE <i class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
             </div>
             <div class="project-card">
@@ -319,12 +319,12 @@
 
 
 <!-- // github script is here  -->
-<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"> </script>
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js" style="margin-left: 100px;"> </script>
         <script>
-            GitHubCalendar(".calendar", "kshitijad12", { responsive: true });
+            GitHubCalendar(".react-activity-calendar", "kshitijad12", { responsive: true });
         
             // Use a proxy
-            GitHubCalendar(".calendar", "kshitijad12", {
+            GitHubCalendar(".react-activity-calendar", "kshitijad12", {
                 proxy(username) {
                     return fetch(`https://your-proxy.com/github?user=${username}`)
                 }
