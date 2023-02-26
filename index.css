@@ -376,7 +376,7 @@ header.shadow {
 }
 
 
-@media only screen and (max-width: 800px){
+/* @media only screen and (max-width: 800px){
   #SkillsContainer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -471,8 +471,8 @@ header.shadow {
   /* responsiveness start from here  */
 
   /* max width */
-  @media (max-width: 991px) {
-    header {
+ /* @media (max-width: 991px) { */
+    /* header {
       padding: 18px 4%;
     }
     section {
@@ -484,7 +484,7 @@ header.shadow {
       --big-font: 2.7rem;
       --medium-font: 1.4rem;
     }
-  }
+  }  
   @media (max-width: 768px) {
     :root {
       --big-font: 2.4rem;
@@ -535,13 +535,13 @@ header.shadow {
     .home-img {
       order: initial;
     }
-}
+} */ 
 
 
 /* medium and small width  */
 
 
-@media (max-width: 340px) {
+/* @media (max-width: 340px) {
     :root {
       --big-font: 1.7rem;
       --medium-font: 1.1rem;
@@ -585,4 +585,4 @@ header.shadow {
       text-align: center;
       margin-bottom: 40px;
     }
-  }
+  } */ 
