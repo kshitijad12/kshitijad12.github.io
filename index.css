@@ -90,6 +90,7 @@ header.shadow {
   color: var(--text-color);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .navbar a:hover {
   color: rgb(225, 87, 87);
 }
@@ -293,24 +294,10 @@ div.home-img {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
-.skills-card-img{
-  /* color */
-}
-#user-detail-intro{
-  /* ------ */
-}
-.nav-link.home{
-  /* ------- */
-}
-..nav-link.resume{
-  /* --------- */
-}
-#user-detail-intro{
-  /* ------------ */
-}
-.skills-card-img{
-  /* ................ */
-}
+/* .nav-link resume{
+  background-color: rgb(225, 87, 87);
+
+} */
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
