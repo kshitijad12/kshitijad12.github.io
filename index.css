@@ -118,7 +118,7 @@ header.shadow {
   align-items: center;
   gap: 1rem;
 }
-.home-img {
+div.home-img {
   order: 3;
 }
 .home-img img {
@@ -293,8 +293,15 @@ header.shadow {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
-
-
+.skills-card-img{
+  /* color */
+}
+#user-detail-intro{
+  /* ------ */
+}
+.nav-link.home{
+  /* ------- */
+}
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
