@@ -83,21 +83,8 @@ header.shadow {
 .navbar {
   display: flex;
 }
-/* .navbar a>button{
-  font-size: larger;
-  font-weight: 700;
-  color: var(--text-color);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-} */
-#resume-button-1{
-   padding: 5px 15px;
-   background-color:rgb(225, 87, 87) ;
-   border-radius: 5px;
-   font-size: 1rem;
-   margin-top: -10px;
-   font-weight: 600;
-   border: 0.5px solid rgb(39, 38, 38);
-}
+
+
 .navbar a{
   font-size: 1.2rem;
   padding: 10px 20px;
@@ -177,7 +164,7 @@ div.home-img {
   .social a:hover {
     color: var(--hover);
   }
-  .btn>button {
+  .btn {
     display: inline-block;
     background:rgb(225, 87, 87) ;
     color: #fff;
@@ -186,9 +173,7 @@ div.home-img {
     border: 0.2px solid rgb(44, 43, 43);
     font-size: 1rem;
   }
-  .btn:hover {
-    background: var(--hover);
-  }
+  
 
   #about{
     margin-bottom: 130px;
