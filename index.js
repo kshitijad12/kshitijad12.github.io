@@ -31,12 +31,18 @@ darkmode.onclick = () => {
 
 
 
-function contshow4(){
-    window.open(href="./documents/Kshitija_Dokarmare_Resume.pdf");
-     }
-let my_cont_4=document.querySelector(".RFAL").addEventListener("click",contshow4)
+// function contshow4(){
+//     window.open(href="./documents/Kshitija_Dokarmare_Resume.pdf");
+//      }
+// let my_cont_4=document.querySelector(".RFAL").addEventListener("click",contshow4)
 
+document.querySelector('#resume-link-1').addEventListener("click",()=>{
+    window.location.assign("https://drive.google.com/uc?export=download&id=1C6Tp16GJ236sQ-aNiXh1eKt_Az3j8C0D","blank");
+})
 
+document.querySelector("#resume-link-2").addEventListener("click",()=>{
+    window.location.assign("https://drive.google.com/uc?export=download&id=1C6Tp16GJ236sQ-aNiXh1eKt_Az3j8C0D","blank");
+})
 
 
 

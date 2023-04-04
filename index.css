@@ -173,7 +173,9 @@ div.home-img {
     border: 0.2px solid rgb(44, 43, 43);
     font-size: 1rem;
   }
-  
+  .btn2{
+    border: none;
+  }
 
   #about{
     margin-bottom: 130px;
