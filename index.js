@@ -37,11 +37,11 @@ darkmode.onclick = () => {
 // let my_cont_4=document.querySelector(".RFAL").addEventListener("click",contshow4)
 
 document.querySelector('#resume-link-1').addEventListener("click",()=>{
-    window.location.assign("https://drive.google.com/uc?export=download&id=1C6Tp16GJ236sQ-aNiXh1eKt_Az3j8C0D","blank");
+    window.location.assign("https://drive.google.com/file/d/1PQ7xpea9FRWKNv1oLaAKCOEBUph3MoKk/view?usp=sharing","blank");
 })
 
 document.querySelector("#resume-link-2").addEventListener("click",()=>{
-    window.location.assign("https://drive.google.com/uc?export=download&id=1C6Tp16GJ236sQ-aNiXh1eKt_Az3j8C0D","blank");
+    window.location.assign("https://drive.google.com/file/d/1PQ7xpea9FRWKNv1oLaAKCOEBUph3MoKk/view?usp=sharing","blank");
 })
 
 
