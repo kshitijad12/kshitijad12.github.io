@@ -120,15 +120,15 @@ header.shadow {
   align-items: center;
   gap: 1rem;
 }
-div.home-img {
+div.home-img2 {
   order: 3;
 }
-.home-img img {
+.home-img2 img {
   width: 100%;
   transition: 2s;
   border-radius: 50%; width:300px ; margin-left: 60px;
 }
-.home-img img:hover {
+.home-img2 img:hover {
   border-radius: 30px;
 }
 .home-text span {
