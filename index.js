@@ -36,14 +36,24 @@ darkmode.onclick = () => {
 //      }
 // let my_cont_4=document.querySelector(".RFAL").addEventListener("click",contshow4)
 
-document.querySelector('#resume-button-1').addEventListener("click",()=>{
-    window.location.assign("https://drive.google.com/file/d/1PQ7xpea9FRWKNv1oLaAKCOEBUph3MoKk/view?usp=sharing","blank");
-})
+// document.querySelector('#resume-button-1').addEventListener("click",()=>{
+//     window.location.assign("https://drive.google.com/file/d/1PQ7xpea9FRWKNv1oLaAKCOEBUph3MoKk/view?usp=sharing","blank");
+// })
 
-document.querySelector("#resume-button-2").addEventListener("click",()=>{
-    window.location.assign("https://drive.google.com/file/d/1PQ7xpea9FRWKNv1oLaAKCOEBUph3MoKk/view?usp=sharing","blank");
-})
+// document.querySelector("#resume-button-2").addEventListener("click",()=>{
+//     window.location.assign("https://drive.google.com/file/d/1PQ7xpea9FRWKNv1oLaAKCOEBUph3MoKk/view?usp=sharing","blank");
+// })
 
+const mybutton = document.getElementById("resume-button-1");
+      mybutton.addEventListener("click",resume);
+
+      function resume(){
+
+        window.open("https://drive.google.com/file/d/1PQ7xpea9FRWKNv1oLaAKCOEBUph3MoKk/view?usp=sharing","_blank");
+      }
+
+      const mybutton2 = document.getElementById("resume-button-2");
+      mybutton2.addEventListener("click",resume);
 
 
 
