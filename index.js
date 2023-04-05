@@ -36,11 +36,11 @@ darkmode.onclick = () => {
 //      }
 // let my_cont_4=document.querySelector(".RFAL").addEventListener("click",contshow4)
 
-document.querySelector('#resume-link-1').addEventListener("click",()=>{
+document.querySelector('#resume-button-1').addEventListener("click",()=>{
     window.location.assign("https://drive.google.com/file/d/1PQ7xpea9FRWKNv1oLaAKCOEBUph3MoKk/view?usp=sharing","blank");
 })
 
-document.querySelector("#resume-link-2").addEventListener("click",()=>{
+document.querySelector("#resume-button-2").addEventListener("click",()=>{
     window.location.assign("https://drive.google.com/file/d/1PQ7xpea9FRWKNv1oLaAKCOEBUph3MoKk/view?usp=sharing","blank");
 })
 
