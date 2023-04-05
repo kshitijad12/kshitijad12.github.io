@@ -40,9 +40,9 @@ darkmode.onclick = () => {
 //     window.location.assign("https://drive.google.com/file/d/1PQ7xpea9FRWKNv1oLaAKCOEBUph3MoKk/view?usp=sharing","blank");
 // })
 
-document.querySelector("#resume-link-2").addEventListener("click",()=>{
-    window.location.assign("https://drive.google.com/file/d/1PQ7xpea9FRWKNv1oLaAKCOEBUph3MoKk/view?usp=sharing","blank");
-})
+// document.querySelector("#resume-link-2").addEventListener("click",()=>{
+//     window.location.assign("https://drive.google.com/file/d/1PQ7xpea9FRWKNv1oLaAKCOEBUph3MoKk/view?usp=sharing","blank");
+// })
 
 const mybutton = document.getElementById("resume-button-1");
       mybutton.addEventListener("click",resume);
