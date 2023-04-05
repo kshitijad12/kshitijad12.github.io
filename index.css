@@ -83,7 +83,10 @@ header.shadow {
 .navbar {
   display: flex;
 }
-
+#resume-button-1{
+  border: none;
+  background-color: #fff;
+}
 
 .navbar a{
   font-size: 1.2rem;
